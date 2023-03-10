@@ -10,6 +10,18 @@ namespace Sum
     {
         static void Main(string[] args)
         {
+            int number1 = int.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine());
+            int result = number1 + number2;
+
+            if(result <= 100)
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                Console.WriteLine("Error");
+            }
         }
     }
 }
