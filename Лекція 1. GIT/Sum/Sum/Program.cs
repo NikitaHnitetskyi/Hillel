@@ -10,6 +10,7 @@ namespace Sum
     {
         static void Main(string[] args)
         {
+            //this is my first home task
             int number1 = int.Parse(Console.ReadLine());
             int number2 = int.Parse(Console.ReadLine());
             int result = number1 + number2;
