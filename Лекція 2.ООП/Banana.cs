@@ -9,9 +9,9 @@ namespace OOP.Apple
     internal class Banana : BaseFruit
     {
         //поля
-        private int numberofpips;
+        private int doesnthavenumberofpips;
 
         //свойства
-        public int Numberofpips => numberofpips;
+        public int Numberofpips => doesnthavenumberofpips;
     }
 }
